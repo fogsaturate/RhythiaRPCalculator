@@ -63,7 +63,7 @@ namespace RhythiaRPCalculator
                 }
             }
 
-            RPText.Content = RPCalculator(float.Parse(AccuracyText.Text) / 100, float.Parse(StarRatingText.Text) * speed) * 2;
+            RPText.Content = "RP: " + RPCalculator(float.Parse(AccuracyText.Text) / 100, float.Parse(StarRatingText.Text) * speed) * 2;
              
         }
     }
